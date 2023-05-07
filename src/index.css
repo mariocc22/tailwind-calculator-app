@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: hsl(0, 0%, 90%);
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background-color: var(--primary);
+}
+
+/* 
+
+  GRID
+
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  margin-top: 2rem;
+  grid-template-columns: repeat(4, 6rem);
+  this will make the rows grow if the content its larger than 7rem
+  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+}
+
+.calculator-grid button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.calculator-grid button:hover,
+.calculator-grid button:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+  SPAN TWO
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0.75rem;
+  jump into the next line if the text its too long
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previous-operand {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.output .current-operand {
+  color: white;
+  font-size: 2.5rem;
+} */
