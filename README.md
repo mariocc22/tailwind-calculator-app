@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://tip-calculator-app-mariocesena.netlify.app/]
+- Live Site URL: [https://calculator-app-mariocesena.netlify.app/]
 
 ## My process
 
